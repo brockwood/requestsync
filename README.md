@@ -32,8 +32,8 @@ For a list of options, please see [the options section for the request module](h
 
 An object containing the following:
 
- - `error` - an error when applicable
- - `response` - a serialized copy of a http.IncomingMessage object which will have missing functions and what not
+ - `err` - an error when applicable
+ - `resp` - a serialized copy of a http.IncomingMessage object which will have missing functions and what not
  - `body` - the response body
 
 ## How is this possible?
