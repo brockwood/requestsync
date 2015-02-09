@@ -1,0 +1,27 @@
+{
+  "name": "requestsync",
+  "version": "0.1.0",
+  "description": "Makes synchronous web requests using the request module",
+  "keywords": [
+    "request",
+    "http",
+    "https",
+    "cache",
+    "synchronous",
+    "sync"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "spawn-sync": "^1.0.1",
+    "request": "^2.53.0"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brockwood/requestsync.git"
+  },
+  "author": "Bryan Rockwood",
+  "license": "MIT"
+}
