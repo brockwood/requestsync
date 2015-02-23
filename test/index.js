@@ -29,7 +29,8 @@ try {
   // Test unauthorized HTTPS GET request
   options = {
   	method: 'GET',
-  	url: 'https://apache.org'
+  	url: 'https://apache.org',
+        rejectUnauthorized: true
   };
   var res = request(options);
   console.log("Response code: ", res.resp.statusCode);
