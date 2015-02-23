@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "concat-stream": "^1.4.7",
-    "spawn-sync": "^1.0.1",
+    "spawn-sync": "brockwood/spawn-sync",
     "request": "^2.53.0"
   },
   "scripts": {
